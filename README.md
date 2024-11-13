@@ -1,7 +1,5 @@
-# P1-Banco-de-dado
-Resumo dos Relacionamentos:
-Clientes e Pedidos: Um cliente pode fazer múltiplos pedidos. A tabela pedidos contém a chave estrangeira id_cliente.
-Funcionários e Pedidos: Cada pedido é processado por um funcionário. A tabela pedidos contém a chave estrangeira id_funcionario.
-Pedidos e Itens_Pedido: Um pedido pode conter múltiplos itens. A tabela itens_pedido tem uma chave estrangeira id_pedido.
-Produtos e Itens_Pedido: Cada item de pedido está associado a um produto específico. A tabela itens_pedido tem uma chave estrangeira id_produto.
-Produtos e Estoque: O estoque controla a quantidade de cada produto. A tabela estoque tem uma chave estrangeira id_produto.
+# Projeto Final de Banco de Dados - Lanchonete Vegana
+Este é o projeto final para a disciplina de Banco de Dados, no qual desenvolvemos um banco de dados para uma lanchonete vegana utilizando MySQL. O projeto cobre todo o ciclo de vida de um banco de dados, incluindo criação de diagramas, scripts para criação, população, manipulação e documentação completa.
+
+Objetivo do Projeto
+O objetivo deste projeto é modelar e implementar um banco de dados completo para operações de uma lanchonete vegana. A base de dados inclui informações sobre produtos, pedidos, clientes, estoque e funcionários, otimizando o gerenciamento de dados e garantindo a organização e eficiência do negócio.
