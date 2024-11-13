@@ -7,13 +7,12 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
 ## Escopo e Funcionalidades
 O banco de dados desenvolvido incluirá as seguintes funcionalidades:
 
-Cadastro e gerenciamento de produtos: Informações detalhadas sobre os itens no cardápio, incluindo ingredientes, preço e disponibilidade.
-Controle de estoque: Acompanhamento do estoque de ingredientes e produtos acabados, permitindo a atualização automática conforme novos pedidos são realizados.
-Gestão de pedidos: Registro completo dos pedidos realizados pelos clientes, desde a escolha dos produtos até a entrega, com informações sobre status e pagamento.
-Cadastro de clientes: Informações dos clientes, incluindo histórico de pedidos e preferências alimentares.
-Gestão de funcionários: Controle de dados sobre os funcionários da lanchonete, com funções específicas para organização do trabalho e gestão de salários.
-Relatórios e Análises: Geração de relatórios sobre vendas, desempenho de produtos e análise de estoque, para auxiliar na tomada de decisões.
-Tecnologias Utilizadas
+- Cadastro e gerenciamento de produtos: Informações detalhadas sobre os itens no cardápio, incluindo ingredientes, preço e disponibilidade.
+- Controle de estoque: Acompanhamento do estoque de ingredientes e produtos acabados, permitindo a atualização automática conforme novos pedidos são realizados.
+- Gestão de pedidos: Registro completo dos pedidos realizados pelos clientes, desde a escolha dos produtos até a entrega, com informações sobre status e pagamento.
+- Cadastro de clientes: Informações dos clientes, incluindo histórico de pedidos e preferências alimentares.
+- Gestão de funcionários: Controle de dados sobre os funcionários da lanchonete, com funções específicas para organização do trabalho e gestão de salários.
+- Relatórios e Análises: Geração de relatórios sobre vendas, desempenho de produtos e análise de estoque, para auxiliar na tomada de decisões.
+##Tecnologias Utilizadas
 MySQL: Para a criação do banco de dados, realizando a estruturação das tabelas, relações e consultas.
 Diagrama de Entidade-Relacionamento (ER): Para visualização das entidades e suas relações no banco de dados.
-SQL: Para a criação dos scripts de populações, manipulação de dados e execução de queries específicas para o gerenciamento da lanchonete.
