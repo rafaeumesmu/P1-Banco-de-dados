@@ -4,11 +4,17 @@ Este projeto visa o desenvolvimento de um sistema de banco de dados robusto e ef
 ## Objetivo do Projeto
 O objetivo principal deste projeto é projetar e implementar um banco de dados que suporte as operações diárias de uma lanchonete vegana. Este banco de dados abrange as áreas críticas do negócio, como gerenciamento de produtos, controle de estoque, registro e processamento de pedidos, cadastro de clientes, e gerenciamento de funcionários. O sistema visa promover a organização e eficiência, permitindo a automação de processos operacionais e a obtenção de informações essenciais de forma rápida e precisa.
 
+# Modelo conceitual 
+<details>
+</details>
 # Modelo fisico
+<details>
 ![fisico](Fisico.png)
+</details>
 #modelo logico
-![Texto alternativo](Logico.png)
-
+<details>
+![Logico](Logico.png)
+</details>
 
 
 ## Escopo e Funcionalidades
