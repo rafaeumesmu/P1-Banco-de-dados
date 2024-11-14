@@ -7,11 +7,13 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
 # Modelo conceitual 
 <details>
 </details>
+
 # Modelo fisico
 <details>
 ![fisico](Fisico.png)
 </details>
-#modelo logico
+
+# modelo logico
 <details>
 ![Logico](Logico.png)
 </details>
