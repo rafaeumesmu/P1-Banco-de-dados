@@ -17,7 +17,7 @@ CREATE TABLE Produtos (
     disponibilidade BOOLEAN DEFAULT TRUE,
     categoria_id INT,
     funcionario_id INT,
-    CONSTRAINT fk_funcionario FOREIGN KEY (funcionario_id) REFERENCES Funcionarios(id_funcionario);
+    CONSTRAINT fk_funcionario FOREIGN KEY (funcionario_id) REFERENCES Funcionarios(id_funcionario),
     CONSTRAINT fk_categoria FOREIGN KEY (categoria_id) REFERENCES Categorias(id_categoria)
 );
 
@@ -55,6 +55,8 @@ CREATE TABLE Pedidos (
     data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP,
     status ENUM('Pendente', 'Em Preparação', 'Concluído', 'Cancelado') DEFAULT 'Pendente',
     pagamento_status ENUM('Pendente', 'Pago', 'Cancelado') DEFAULT 'Pendente',
+    funcionario_id INT,
+    CONSTRAINT fk_funcionario FOREIGN KEY (funcionario_id) REFERENCES Funcionarios(id_funcionario),
     CONSTRAINT fk_cliente FOREIGN KEY (cliente_id) REFERENCES Clientes(id_cliente)
 );
 
