@@ -6,16 +6,17 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
 
 # Modelo conceitual 
 <details>
+  <img src="Conceitual.png" alt="Modelo conceitual">
 </details>
 
 # Modelo fisico
 <details>
-![fisico](Fisico.png)
+  <img src="Fisico.png" alt="modelo fisico">
 </details>
 
 # modelo logico
 <details>
-![Logico](Logico.png)
+  <img src="Logico.png" alt="Modelo logico">
 </details>
 
 
