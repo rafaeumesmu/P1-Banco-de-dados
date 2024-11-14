@@ -6,6 +6,9 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
 
 # Modelo fisico
 ![fisico](Fisico.png)
+#modelo logico
+![Texto alternativo](Logico.png)
+
 
 
 ## Escopo e Funcionalidades
