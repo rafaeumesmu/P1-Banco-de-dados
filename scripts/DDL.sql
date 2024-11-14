@@ -16,6 +16,8 @@ CREATE TABLE Produtos (
     preco DECIMAL(10, 2) NOT NULL,
     disponibilidade BOOLEAN DEFAULT TRUE,
     categoria_id INT,
+    funcionario_id INT,
+    CONSTRAINT fk_funcionario FOREIGN KEY (funcionario_id) REFERENCES Funcionarios(id_funcionario);
     CONSTRAINT fk_categoria FOREIGN KEY (categoria_id) REFERENCES Categorias(id_categoria)
 );
 
