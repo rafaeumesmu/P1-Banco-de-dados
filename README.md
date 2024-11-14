@@ -9,16 +9,15 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
   <img src="Conceitual.png" alt="Modelo conceitual">
 </details>
 
-# Modelo fisico
-<details>
-  <img src="Fisico.png" alt="modelo fisico">
-</details>
-
 # modelo logico
 <details>
   <img src="Logico.png" alt="Modelo logico">
 </details>
 
+# Modelo fisico
+<details>
+  <img src="Fisico.png" alt="modelo fisico">
+</details>
 
 ## Escopo e Funcionalidades
 O banco de dados desenvolvido incluirá as seguintes funcionalidades:
