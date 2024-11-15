@@ -28,6 +28,6 @@ O banco de dados desenvolvido incluirá as seguintes funcionalidades:
 - Cadastro de clientes: Informações dos clientes, incluindo histórico de pedidos e preferências alimentares.
 - Gestão de funcionários: Controle de dados sobre os funcionários da lanchonete, com funções específicas para organização do trabalho e gestão de salários.
 - Relatórios e Análises: Geração de relatórios sobre vendas, desempenho de produtos e análise de estoque, para auxiliar na tomada de decisões.
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 MySQL: Para a criação do banco de dados, realizando a estruturação das tabelas, relações e consultas.
 Diagrama de Entidade-Relacionamento (ER): Para visualização das entidades e suas relações no banco de dados.
