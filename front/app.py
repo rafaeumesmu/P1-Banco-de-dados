@@ -8,7 +8,7 @@ app.secret_key = "sua_chave_secreta"
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "pivete220@",
+    "password": "senhabanco",
     "database": "LanchoneteVegana"
 }
 
