@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Categorias</h1>
+<form method="POST" action="/categorias" class="mb-4">
+    <div class="mb-3">
+        <label for="nome_categoria" class="form-label">Nome da Categoria</label>
+        <input type="text" class="form-control" id="nome_categoria" name="nome_categoria" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+<h2>Categorias Cadastradas</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for categoria in categorias %}
+        <tr>
+            <td>{{ categoria.id_categoria }}</td>
+            <td>{{ categoria.nome_categoria }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Clientes</h1>
+<form method="POST" action="/funcionarios" class="mb-4">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+    </div>
+    <div class="mb-3">
+        <label for="cargo" class="form-label">Cargo</label>
+        <input type="text" class="form-control" id="cargo" name="cargo" required>
+    </div>
+    <div class="mb-3">
+        <label for="salario" class="form-label">Salario</label>
+        <input type="text" class="form-control" id="telefone" name="telefone">
+    </div>
+    <div class="mb-3">
+        <label for="DatadeAdmissao" class="form-label">Data de Admissao</label>
+        <input type="date" class="form-control" id="DatadeAdmissao" name="DatadeAdmissao">
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+<h2>Clientes Cadastrados</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Cargo</th>
+            <th>Salario</th>
+            <th>DatadeAdmissao</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for funcionarios in funcionarios %}
+        <tr>
+            <td>{{ funcionarios.id_funcionario }}</td>
+            <td>{{ funcionarios.nome }}</td>
+            <td>{{ funcionarios.cargo }}</td>
+            <td>{{ funcionarios.salario }}</td>
+            <td>{{ funcionarios.data_admissao }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Clientes</h1>
+<form method="POST" action="/ingredientes" class="mb-4">
+    <div class="mb-3">
+        <label for="ingrediente" class="form-label">ingrediente</label>
+        <input type="text" class="form-control" id="ingrediente" name="ingrediente" required>
+    </div>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+    </div>
+    <div class="mb-3">
+        <label for="quantidade_estoque" class="form-label">Quantidade em Estoque</label>
+        <input type="number" class="form-control" id="quantidade_estoque" name="quantidade_estoque">
+    </div>
+    <div class="mb-3">
+        <label for="unidade" class="form-label">Unidade</label>
+        <input type="text" class="form-control" id="unidade" name="unidade">
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+<h2>Clientes Cadastrados</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Quantidade_estoque</th>
+            <th>Unidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ingredientes in ingredientes %}
+        <tr>
+            <td>{{ ingredientes.id_ingrediente }}</td>
+            <td>{{ ingredientes.nome }}</td>
+            <td>{{ ingredientes.quantidade_em_estoque }}</td>
+            <td>{{ ingredientes.unidade }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
