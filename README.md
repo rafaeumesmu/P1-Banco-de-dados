@@ -6,7 +6,7 @@ O objetivo principal deste projeto é projetar e implementar um banco de dados q
 
 # Modelo conceitual 
 <details>
-  <img src="Conceitual.png" alt="Modelo conceitual">
+  <img src="Conceitual (1).png" alt="Modelo conceitual">
 </details>
 
 # modelo logico
